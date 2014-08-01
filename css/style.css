@@ -136,3 +136,19 @@ h2 {
 .img-basic:hover {
     height: 250px;
 }
+
+
+.tab {
+    background: -webkit-linear-gradient(#bbbbbb, #eeeeee); 
+    background: -o-linear-gradient(#bbbbbb, #eeeeee); 
+    background: linear-gradient(#bbbbbb, #eeeeee); 
+    padding: 12px;
+    width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.browser-content {
+    background: #eeeeee;
+    width: 80%;
+    padding: 30px;
+}

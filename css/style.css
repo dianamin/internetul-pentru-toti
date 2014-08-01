@@ -65,9 +65,9 @@ h2 {
 
 .ascuns {
     height: 1px;
-    transition: height 1s;
-    -webkit-transition: height 1s;
-    -o-transition: height 1s;
+    transition: height 2s;
+    -webkit-transition: height 2s;
+    -o-transition: height 2s;
     overflow: hidden;
 }
 

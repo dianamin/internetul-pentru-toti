@@ -6,8 +6,12 @@ var arataElement = function (id, height) {
 	document.getElementById(id).setAttribute("style", "height:" + height + "px; overflow-y: auto");
 }
 
+var ant = 0;
 var nav = function (x) {
 	document.getElementById("content").innerHTML = info[x];
+	document.getElementById(ant).setAttribute("class", "box");
+	document.getElementById(x).setAttribute("class", "box active");
+	ant = x;
 }
 
 
@@ -63,4 +67,15 @@ var verificaDevices = function () {
 
 var browserName = function (name) {
 	scrieElement("bn", name);
+}
+
+var masuraC = [1, 2, 1, 1]
+var masuri = function (x, i) {
+	var rezultat;
+	if (x == masuraC[i]) {
+		rezultat = "Bravo! ";
+	}
+	else rezultat = "Nu! ";
+	scrieElement("q" + i, rezultat);
+	arataElement("a" + i, "50");
 }

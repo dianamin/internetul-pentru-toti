@@ -152,7 +152,7 @@ var info = [
   <img src = "img/chrome.png" class = "browser" onmouseover = "browserName(\'Google Chrome\')";/>\
   <img src = "img/firefox.jpg" class = "browser" onmouseover = "browserName(\'Mozilla Firefox\')"/>\
   <img src = "img/ie.png" class = "browser" onmouseover = "browserName(\'Internet Explorer\')"/> <br /> <br />\
-  <button class = "btn btn-primary" onclick = "arataElement(\'QA\', \'800\')"><h2>Q & A <span class = "caret"></span></h2></button>\
+  <button class = "btn btn-primary" onclick = "arataElement(\'QA\', \'800\')" style = "font-size: 20px;">Q & A <span class = "caret"></span></button>\
   <div class = "ascuns" id = "QA">\
   <div class = "row">\
     <div class = "col-md-4">\

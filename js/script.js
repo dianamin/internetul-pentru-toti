@@ -24,3 +24,14 @@ var oreOnline = function () {
 	rezultatOreOnline();
 	arataElement("rezultatOreOnline", "50");
 }
+
+var anInternet = function () {
+	var x = document.getElementById("anInternet").value;
+	var rezultat;
+	if (x == 1982) rezultat = "Bravo!";
+	else if (1992 >= x && x > 1972) rezultat = "Pe aproape!";
+	else rezultat = "Nu chiar!"
+	rezultat += " Internetul a apărut în anul 1982."
+	scrieElement("rezultatAn", rezultat)
+	arataElement("rezultatAn", "200");
+}

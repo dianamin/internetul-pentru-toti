@@ -5,6 +5,9 @@
 	<link rel = "stylesheet" href = "css/style.css" />
     <link rel = "stylesheet" href = "css/glyphicons.css" />
     <link rel = "stylesheet" href = "css/bootstrap.css" />
+
+
+<script src = "js/data.js"></script>
 </head>
 
 <body>
@@ -13,65 +16,18 @@
 <center>
 
 <ul class="nav nav-pills">
-  <li class="box"><span class = "glyphicon glyphicon-pencil"></span> <br /> Intro</li>
-  <li class="box"><span class = "glyphicon glyphicon-book"></span> <br /> Istorie</li>
-  <li class="box"><span class = "glyphicon glyphicon-time"></span> <br /> Astăzi</li>
-  <li class="box"><span class = "glyphicon glyphicon-plus"></span> <span class = "glyphicon glyphicon-minus"></span> <br /> Pro!? </li>
-  <li class="box active"><span class = "glyphicon glyphicon-cog"></span> <br /> Basics </li>
-  <li class="box"><span class = "glyphicon glyphicon-user"></span> <br /> Useri</li>
+  <li class="box" id = "0" onclick = "nav(0)"><span class = "glyphicon glyphicon-pencil"></span> <br /> Intro</li>
+  <li class="box" id = "1" onclick = "nav(1)"><span class = "glyphicon glyphicon-book"></span> <br /> Istorie</li>
+  <li class="box" id = "2" onclick = "nav(2)"><span class = "glyphicon glyphicon-time"></span> <br /> Astăzi</li>
+  <li class="box" id = "3" onclick = "nav(3)"><span class = "glyphicon glyphicon-plus"></span> <span class = "glyphicon glyphicon-minus"></span> <br /> Pro!? </li>
+  <li class="box active" id = "4" onclick = "nav(4)"><span class = "glyphicon glyphicon-cog"></span> <br /> Basics </li>
+  <li class="box" id = "5"><span class = "glyphicon glyphicon-user"></span> <br /> Useri</li>
 </ul>
 
 <div id = "content">
-  <h2>Cum navighez pe internet?</h2>
-  <p>Folosesc un browser! Câteva exemple sunt:</p>
-  <div class="alert alert-danger" id = "bn"></div>
-  <img src = "img/chrome.png" class = "browser" onmouseover = "browserName('Google Chrome')";/>
-  <img src = "img/firefox.jpg" class = "browser" onmouseover = "browserName('Mozilla Firefox')"/>
-  <img src = "img/ie.png" class = "browser" onmouseover = "browserName('Internet Explorer')"/>
-  <div class = "row">
-    <div class = "col-md-4">   
-      <h2>Cum intru într-o pagină din browser?</h2>
-      <p>Intrăm într-o pagină de aici: </p>
-      <img src = "img/enter_page.png" /> <br />
-    </div>
-    <div class = "col-md-4">
-      <h2>Cum căutăm informații?</h2>
-      <p>Putem folosi un motor de căutare precum Google: </p>
-      <img src = "img/search.jpg" />
-    </div>
-    <div class = "col-md-4">
-      <h2>Cum socializez?</h2>
-      <p>Ne trebuie în primul rând o adresă de mail. Un cont de gmail îmi oferă acces la mai mult decât corespondență electronică.</p>
-      <img src = "img/email.png" class = "img-basic" />
-    </div>
-  </div>
-  <div class = "row">
-    <div class = "col-md-4">
-    <h2>Cum mă uit la video-uri?</h2>
-    <p>Youtube.com!</p>
-    <img src = "img/email.png" class = "img-basic" />
-    </div>
-    <div class = "col-md-4">
-    <h2>Cum mă uit pe hartă?</h2>
-    <p>Google Maps!</p>
-    <img src = "img/email.png" class = "img-basic" />
-    </div>
-    <div class = "col-md-4">
-    <h2>Cum mă uit la video-uri?</h2>
-    <p>Youtube.com!</p>
-    <img src = "img/email.png" class = "img-basic" />
-    </div>
-  </div>
-  <!--
-  <div class = "btn btn-primary" /> Exercițiu <span class = "caret"></span></div>
-  <div id = "e1">
-    <input type = "text" class = "form-control" style = "width: 500px;">
-    <iframe src = "http://github.com" style = "width: 500px;"></iframe>
-  </div>
-  -->
+
 </div>
 
-<script src = "js/data.js"></script>
 <script src = "js/script.js"></script>
 </body>
 

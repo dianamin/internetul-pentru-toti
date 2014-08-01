@@ -6,6 +6,11 @@ var arataElement = function (id, height) {
 	document.getElementById(id).setAttribute("style", "height:" + height + "px; overflow-y: auto");
 }
 
+var nav = function (x) {
+	document.getElementById("content").innerHTML = info[x];
+}
+
+
 var rezultatOreOnline = function () {
 	var id = "rezultatOreOnline"
 	var rezultat;

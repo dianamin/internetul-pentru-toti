@@ -145,5 +145,48 @@ var info = [
       <li><span class = "glyphicon glyphicon-remove"></span>Nu toate informațiile sunt adevărate. Nici măcar identitățile oamenilor.</li>\
       <li><span class = "glyphicon glyphicon-user"></span>Nu toată lumea este atentă la reputația digitală.</li>\
     </ul>\
+  </div>',
+  '<h2>Cum navighez pe internet?</h2>\
+  <p>Folosesc un browser! Câteva exemple sunt:</p>\
+  <div class="alert alert-info" id = "bn"></div>\
+  <img src = "img/chrome.png" class = "browser" onmouseover = "browserName(\'Google Chrome\')";/>\
+  <img src = "img/firefox.jpg" class = "browser" onmouseover = "browserName(\'Mozilla Firefox\')"/>\
+  <img src = "img/ie.png" class = "browser" onmouseover = "browserName(\'Internet Explorer\')"/> <br /> <br />\
+  <button class = "btn btn-primary" onclick = "arataElement(\'QA\', \'800\')"><h2>Q & A <span class = "caret"></span></h2></button>\
+  <div class = "ascuns" id = "QA">\
+  <div class = "row">\
+    <div class = "col-md-4">\
+        <h3>Cum intru într-o pagină din browser?</h3>\
+        <p>Intrăm într-o pagină de aici: </p>\
+        <img src = "img/enter_page.png" /> <br />\
+      </div>\
+      <div class = "col-md-4">\
+        <h3>Cum căutăm informații?</h3>\
+        <p>Putem folosi un motor de căutare precum Google: </p>\
+        <img src = "img/search.jpg" class = "img-basic" />\
+      </div>\
+      <div class = "col-md-4">\
+        <h3>Cum socializez?</h3>\
+        <p>Ne trebuie în primul rând o adresă de mail. Un cont de gmail îmi oferă acces la mai mult decât corespondență electronică.</p>\
+        <img src = "img/email.png" class = "img-basic" />\
+      </div>\
+    </div>\
+    <div class = "row">\
+      <div class = "col-md-4">\
+      <h3>Cum mă uit la video-uri?</h3>\
+      <p>Youtube.com!</p>\
+      <img src = "img/youtube.png" class = "img-basic" />\
+      </div>\
+      <div class = "col-md-4">\
+      <h3>Cum mă uit pe hartă?</h3>\
+      <p>Google Maps!</p>\
+      <img src = "img/harta.png" class = "img-basic" />\
+      </div>\
+      <div class = "col-md-4">\
+      <h3>Unde încarc fișierele mele?</h3>\
+      <p>Google Drive!</p>\
+      <img src = "img/drive.png" class = "img-basic" />\
+      </div>\
+    </div>\
   </div>'
 ];

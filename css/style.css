@@ -129,4 +129,10 @@ h2 {
 
 .img-basic {
     height: 200px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+.img-basic:hover {
+    height: 250px;
 }

@@ -32,10 +32,14 @@ body {
     background-color: blue;
     color: white;
 }
+.box.active {
+    background-color: blue;
+    color: white;
+}
 
 #content {
-    background: rgba(255, 255, 255, 0.5);
-    color: darkblue;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
     padding: 50px;
     text-align: center;
     font-size: 18px;
@@ -57,4 +61,27 @@ h2 {
 
 .inner-content {
     text-align: justify;
+}
+
+.ascuns {
+    height: 1px;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+}
+
+#map {
+    height: 200px;
+    box-shadow: 0 0 20px black;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+#map:hover {
+    height: 300px;
+}
+
+#anInternet {
+    width: 200px;
+    display: inline-block;
 }

@@ -3,7 +3,7 @@ var scrieElement = function (id, text) {
 }
 
 var arataElement = function (id, height) {
-	document.getElementById(id).setAttribute("style", "height: " + height + "px;");
+	document.getElementById(id).setAttribute("style", "height:" + height + "px; overflow-y: auto");
 }
 
 var rezultatOreOnline = function () {
@@ -34,4 +34,28 @@ var anInternet = function () {
 	rezultat += " Internetul a apărut în anul 1982."
 	scrieElement("rezultatAn", rezultat)
 	arataElement("rezultatAn", "50");
+}
+
+
+var devicesC = ["c1", "c3", "c5", "c8"]
+
+var verificaDevices = function () {
+	var ok = true;
+	for (var i = 0; i < 4; i++) if (document.getElementById(devicesC[i]).checked == false) ok = false;
+	if (ok == true) {
+		var checked = 0;
+		for (var i = 1; i <= 10; i++) if (document.getElementById("c" + i).checked == true) checked++;
+		if (checked > 4) ok = false;
+	}
+	var rezultat;
+	if (ok) rezultat = "Bravo!"
+	else rezultat = "Nu chiar!"
+
+	scrieElement("rezultatDevices", rezultat);
+
+	arataElement("devices", "350");
+}
+
+var browserName = function (name) {
+	scrieElement("bn", name);
 }

@@ -88,5 +88,45 @@ h2 {
 }
 
 .device {
+    width: 80%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+.device:hover {
+    width: 85%;
+}
+
+.circle {
+    background-color: crimson;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#adv {
+    color: darkgreen;
+    text-align: justify;
+}
+#disadv {
+    color: darkred;
+    text-align: justify;
+}
+
+.browser {
+    height: 70px;
+    box-shadow: 0 0 10px white;
+    transition: all 1s;
+}
+.browser:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.img-basic {
     height: 200px;
 }

@@ -67,7 +67,83 @@ var info = [
       </li>\
     </ul>\
     </div>\
+  </div>',
+  '<div class = "alert alert-success">În ziua de astăzi, net-ul este platforma deschisă și universal accesibilă pentru inovație, creativitate și oportunități economice.</div>\
+<h2><span class = "glyphicon glyphicon-map-marker"></span> Unde pot folosi internetul?</h2>\
+<p> Alege cele mai utilizate 4 device-uri pentru a accesa internetul: </p>\
+<form>\
+  <input type="checkbox" id = "c1"> Laptop\
+  <input type="checkbox" id = "c2"> Mașină de spălat\
+  <input type="checkbox" id = "c3"> Telefon\
+  <input type="checkbox" id = "c4"> Aragaz\
+  <input type="checkbox" id = "c5"> Desktop PC\
+  <input type="checkbox" id = "c6"> Brichetă\
+  <input type="checkbox" id = "c7"> Frigider\
+  <input type="checkbox" id = "c8"> Tabletă\
+  <input type="checkbox" id = "c9"> MP3 Player\
+  <input type="checkbox" id = "c10"> Calorifer\
+  <br />\
+</form>\
+<div class = "btn btn-default" onclick = "verificaDevices()"> Verifică </div>\
+<div id = "devices" class = "ascuns" >\
+  <p id = "rezultatDevices"></p>\
+  <p>Aproximativ oriunde cât timp am un device, de exemplu: </p>\
+  <div class = "row">\
+    <div class = "col-md-3 inner-content">\
+      <center> <img src = "img/desktop.png" class = "device" /> </center> <br />\
+      Acasă sau la muncă, desktop-ul este o alegere foarte bună pentru a naviga pentru internet.\
+    </div>\
+    <div class = "col-md-3 inner-content">\
+      <center> <img src = "img/laptop.png" class = "device" /> </center> <br />\
+      Cu performanțe aproape identice cu ale desktop-ului, laptopul este portabil.\
+    </div>\
+    <div class = "col-md-3 inner-content">\
+      <center> <img src = "img/tableta.png" class = "device" /> </center> <br />\
+      Tableta poate fi dusă aproape oriunde și asigură accesul rapid la informații.\
+    </div>\
+    <div class = "col-md-3 inner-content">\
+      <center> <img src = "img/telefon.png" class = "device" /> </center>\
+      Telefonul mobil (mai ales un smartphone) îl avem tot timpul cu noi.\
+    </div>\
+  </div>\
+  </div>\
+  <h2> <span class = "glyphicon glyphicon-signal"></span> Dar de unde semnal? </h2>\
+  <p>Cele mai cunoscute moduri de transmisie sunt:</p>\
+  <div class = "row">\
+  <div class = "col-md-4">\
+    <center><div class = "circle">Wi-Fi</div></center>\
+    Tehnologie fără fir.\
+  </div>\
+  <div class = "col-md-4">\
+    <center><div class = "circle">Dial-up</div></center>\
+    Stabilește conexiunea prin liniile de la <span class = "glyphicon glyphicon-phone-alt"></span>\
+  </div>\
+  <div class = "col-md-4">\
+    <center><div class = "circle">Fibră optică</div></center>\
+    Cablu transparent și foarte subțire.\
+</div>',
+'\
+<h2> Care sunt avantajele și dezavantajele internetului? </h2>\
+<div class = "row">  <div class = "col-md-6">\
+    Avantaje\
+    <ul id = "adv">\
+      <li><span class = "glyphicon glyphicon-calendar"></span> Putem afla rapid de evenimente importante. </li>\
+      <li><span class = "glyphicon glyphicon-globe"></span> Putem discuta opinii cu oameni din toată lumea cu aceleași interese ca și noi.</li>\
+      <li><span class = "glyphicon glyphicon-briefcase"></span> Avem acces la educație online cu ajutorul platformelor (infoarena, .campion), putem lucra mai ușor.</li>\
+      <li><span class = "glyphicon glyphicon-eye-open"></span> Părinții își pot supraveghea copiii online.</li>\
+      <li><span class = "glyphicon glyphicon-plus-sign"></span> Avem acces la consultații medicale online.</li>\
+      <li><span class = "glyphicon glyphicon-shopping-cart"></span>Putem face cumpărături online.</li>\
+      <li><span class = "glyphicon glyphicon-cloud"></span>Ne putem ține fișierele online.</li>\
+    </ul>\
+  </div>\
+  <div class = "col-md-6">\
+    Dezavantaje\
+    <ul id = "disadv">\
+      <li><span class = "glyphicon glyphicon-warning-sign"></span>Accesul copiilor la internet trebuie controlat. </li>\
+      <li><span class = "glyphicon glyphicon-pushpin"></span>Dependența de internet e ca un drog. </li>\
+      <li><span class = "glyphicon glyphicon-envelope"></span>Oamenii își pierd capacitatea de socializare.</li>\
+      <li><span class = "glyphicon glyphicon-remove"></span>Nu toate informațiile sunt adevărate. Nici măcar identitățile oamenilor.</li>\
+      <li><span class = "glyphicon glyphicon-user"></span>Nu toată lumea este atentă la reputația digitală.</li>\
+    </ul>\
   </div>'
 ];
-
-console.log(info[1]);

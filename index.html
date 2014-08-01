@@ -15,57 +15,60 @@
 <ul class="nav nav-pills">
   <li class="box"><span class = "glyphicon glyphicon-pencil"></span> <br /> Intro</li>
   <li class="box"><span class = "glyphicon glyphicon-book"></span> <br /> Istorie</li>
-  <li class="box active"><span class = "glyphicon glyphicon-time"></span> <br /> Astăzi</li>
-  <li class="box"><span class = "glyphicon glyphicon glyphicon-ok"></span> <br /> Plusuri </li>
-  <li class="box"><span class = "glyphicon glyphicon glyphicon-remove"></span> <br /> Minusuri </li>
+  <li class="box"><span class = "glyphicon glyphicon-time"></span> <br /> Astăzi</li>
+  <li class="box"><span class = "glyphicon glyphicon-plus"></span> <span class = "glyphicon glyphicon-minus"></span> <br /> Pro!? </li>
+  <li class="box active"><span class = "glyphicon glyphicon-cog"></span> <br /> Basics </li>
   <li class="box"><span class = "glyphicon glyphicon-user"></span> <br /> Useri</li>
 </ul>
 
 <div id = "content">
-
-<div class = "alert alert-success">În ziua de astăzi, net-ul este platforma deschisă și universal accesibilă pentru inovație, creativitate și oportunități economice.</div>
-
-<h2>Unde pot folosi internetul?</h2>
-
-<p> Alege cele mai utilizate 4 device-uri pentru a accesa internetul: </p>
-<form>
-  <input type="checkbox"> Laptop
-  <input type="checkbox"> Mașină de spălat
-  <input type="checkbox"> Telefon
-  <input type="checkbox"> Aragaz
-  <input type="checkbox"> Desktop PC
-  <input type="checkbox"> Brichetă
-  <input type="checkbox"> Frigider
-  <input type="checkbox"> Tabletă
-  <input type="checkbox"> MP3 Player
-  <input type="checkbox"> Calorifer
-  <br />
-  <button class = "btn btn-default" onclick = "verificaDevices()">Verifică</button>
-</form>
-
-<div>
-  <p>Aproximativ oriunde cât timp am un device, de exemplu: </p>
+  <h2>Cum navighez pe internet?</h2>
+  <p>Folosesc un browser! Câteva exemple sunt:</p>
+  <div class="alert alert-danger" id = "bn"></div>
+  <img src = "img/chrome.png" class = "browser" onmouseover = "browserName('Google Chrome')";/>
+  <img src = "img/firefox.jpg" class = "browser" onmouseover = "browserName('Mozilla Firefox')"/>
+  <img src = "img/ie.png" class = "browser" onmouseover = "browserName('Internet Explorer')"/>
   <div class = "row">
-    <div class = "col-md-3 inner-content">
-      <center> <img src = "img/desktop.png" class = "device" /> </center>
-      Acasă sau la muncă, desktop-ul este o alegere foarte bună pentru a naviga pentru internet.
+    <div class = "col-md-4">   
+      <h2>Cum intru într-o pagină din browser?</h2>
+      <p>Intrăm într-o pagină de aici: </p>
+      <img src = "img/enter_page.png" /> <br />
     </div>
-    <div class = "col-md-3 inner-content">
-      <center> <img src = "img/laptop.png" class = "device" /> </center>
-      Cu performanțe aproape identice cu ale desktop-ului, laptopul este portabil.
+    <div class = "col-md-4">
+      <h2>Cum căutăm informații?</h2>
+      <p>Putem folosi un motor de căutare precum Google: </p>
+      <img src = "img/search.jpg" />
     </div>
-    <div class = "col-md-3 inner-content">
-      <center> <img src = "img/tableta.png" class = "device" /> </center>
-      Tableta poate fi dusă aproape oriunde și asigură accesul rapid la informații.
-    </div>
-    <div class = "col-md-3 inner-content">
-      <center> <img src = "img/telefon.png" class = "device" /> </center>
-      Telefonul mobil (mai ales un smartphone) îl avem tot timpul cu noi.
+    <div class = "col-md-4">
+      <h2>Cum socializez?</h2>
+      <p>Ne trebuie în primul rând o adresă de mail. Un cont de gmail îmi oferă acces la mai mult decât corespondență electronică.</p>
+      <img src = "img/email.png" class = "img-basic" />
     </div>
   </div>
-</div>
-
-
+  <div class = "row">
+    <div class = "col-md-4">
+    <h2>Cum mă uit la video-uri?</h2>
+    <p>Youtube.com!</p>
+    <img src = "img/email.png" class = "img-basic" />
+    </div>
+    <div class = "col-md-4">
+    <h2>Cum mă uit pe hartă?</h2>
+    <p>Google Maps!</p>
+    <img src = "img/email.png" class = "img-basic" />
+    </div>
+    <div class = "col-md-4">
+    <h2>Cum mă uit la video-uri?</h2>
+    <p>Youtube.com!</p>
+    <img src = "img/email.png" class = "img-basic" />
+    </div>
+  </div>
+  <!--
+  <div class = "btn btn-primary" /> Exercițiu <span class = "caret"></span></div>
+  <div id = "e1">
+    <input type = "text" class = "form-control" style = "width: 500px;">
+    <iframe src = "http://github.com" style = "width: 500px;"></iframe>
+  </div>
+  -->
 </div>
 
 <script src = "js/data.js"></script>

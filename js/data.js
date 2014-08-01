@@ -198,7 +198,7 @@ var info = [
 <h2><span class = "glyphicon glyphicon-warning-sign"></span>Ce măsuri ar trebui să iau?</h2>\
 <p>Hmm... Răspunde la următoarele întrebări.</p>\
 <table class = "table table-striped">\
-  <tr><td>Ești atent la ceea ce postezi? <p class = "ascuns" id = "a0"><span id = \'q0\'></span>Înainte de a posta pe o rețea socială, gândeștete dacă ai vrea ca la acea informație să aibă acces toată lumea. Nu uita, Internetul este un loc public!</p></td>\
+  <tr><td>Ești atent la ceea ce postezi? <p class = "ascuns" id = "a0"><span id = \'q0\'></span>Înainte de a posta pe o rețea socială, gândește-te dacă ai vrea ca la acea informație să aibă acces toată lumea. Nu uita, Internetul este un loc public!</p></td>\
     <td> <button class = "btn btn-success" onclick = "masuri(1, 0)">Da</button> <button class = "btn btn-danger" onclick = "masuri(2, 0)">Nu</button></td></tr>\
   <tr><td>Poți vorbi oricum cu ceilalți utilizatori?  <p class = "ascuns" id = "a1"><span id = "q1"></span>Comportă-te cu ceilalți așa cum ai vrea să se poarte și ei la rândul lor cu tine. În cazul în care cineva te deranjează, blochează și raportează persoana.</p></td>\
     <td> <button class = "btn btn-success" onclick = "masuri(1, 1)">Da</button> <button class = "btn btn-danger" onclick = "masuri(2, 1)">Nu</button></td></tr>\
@@ -226,3 +226,6 @@ var info = [
     <p> <span class = "glyphicon glyphicon-star-empty"></span> Apasă Ctrl + Shift + N pentru a deschide o fereastră incognito.</p>\
   </div>'
 ];
+
+
+

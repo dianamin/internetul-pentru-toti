@@ -149,6 +149,10 @@ h2 {
 }
 .browser-content {
     background: #eeeeee;
-    width: 80%;
+    width: 100%;
     padding: 30px;
+}
+
+blockquote {
+    text-align: justify;
 }

@@ -14,56 +14,61 @@
 
 <ul class="nav nav-pills">
   <li class="box"><span class = "glyphicon glyphicon-pencil"></span> <br /> Intro</li>
-  <li class="box active"><span class = "glyphicon glyphicon-book"></span> <br /> Istorie</li>
-  <li class="box"><span class = "glyphicon glyphicon-time"></span> <br /> Astăzi</li>
+  <li class="box"><span class = "glyphicon glyphicon-book"></span> <br /> Istorie</li>
+  <li class="box active"><span class = "glyphicon glyphicon-time"></span> <br /> Astăzi</li>
   <li class="box"><span class = "glyphicon glyphicon glyphicon-ok"></span> <br /> Plusuri </li>
   <li class="box"><span class = "glyphicon glyphicon glyphicon-remove"></span> <br /> Minusuri </li>
   <li class="box"><span class = "glyphicon glyphicon-user"></span> <br /> Useri</li>
 </ul>
 
 <div id = "content">
-  <h2><span class = "glyphicon glyphicon-question-sign"></span> Când crezi că a apărut internetul?</h2>
-  <div>
-    <p>Cred că internetul a apărut în anul<input type = "text" class = "form-control" placeholder = "scrie anul și apasă enter :)" id = "anInternet" id = "anRaspuns" onkeydown="if (event.keyCode == 13) anInternet()"/> </p>
-    <div class="alert alert-info ascuns" id = "rezultatAn" role="alert">
-      <br />
+
+<div class = "alert alert-success">În ziua de astăzi, net-ul este platforma deschisă și universal accesibilă pentru inovație, creativitate și oportunități economice.</div>
+
+<h2>Unde pot folosi internetul?</h2>
+
+<p> Alege cele mai utilizate 4 device-uri pentru a accesa internetul: </p>
+<form>
+  <input type="checkbox"> Laptop
+  <input type="checkbox"> Mașină de spălat
+  <input type="checkbox"> Telefon
+  <input type="checkbox"> Aragaz
+  <input type="checkbox"> Desktop PC
+  <input type="checkbox"> Brichetă
+  <input type="checkbox"> Frigider
+  <input type="checkbox"> Tabletă
+  <input type="checkbox"> MP3 Player
+  <input type="checkbox"> Calorifer
+  <br />
+  <button class = "btn btn-default" onclick = "verificaDevices()">Verifică</button>
+</form>
+
+<div>
+  <p>Aproximativ oriunde cât timp am un device, de exemplu: </p>
+  <div class = "row">
+    <div class = "col-md-3 inner-content">
+      <center> <img src = "img/desktop.png" class = "device" /> </center>
+      Acasă sau la muncă, desktop-ul este o alegere foarte bună pentru a naviga pentru internet.
     </div>
-    <a href = "http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html" /> <img src = "img/first_site.jpg" id = "map" /> </a>
-    <p>Click pe imagine pentru a vedea primul website </p>
-
-
-
-    <div class="panel panel-info">
-    <div class="panel-heading" style = "color: black;">
-      <h2> <span class = "glyphicon glyphicon-road"></span> Cum s-a dezvoltat internetul totuși?</h2>
+    <div class = "col-md-3 inner-content">
+      <center> <img src = "img/laptop.png" class = "device" /> </center>
+      Cu performanțe aproape identice cu ale desktop-ului, laptopul este portabil.
     </div>
-
-    <p>
-      Tim Bernes-Lee, un om de știință englez de la CERN a inventat World Wide Web (WWW) în 1989. Rețeaua a fost inițial concepută și dezvoltată pentru distribuirea automată a informației între oamenii de știință din universități și instituții din toată lumea. <span class = "glyphicon glyphicon-send"></span>
-    </p>
-
-    <ul class="list-group">
-      <li class="list-group-item">
-        <b> Secolul al XIX-lea - sisteme precursoare </b>
-        <p>  <span class = "glyphicon glyphicon-envelope"></span> Nu era chiar internet, dar totuși... Telegraful a revoluţionat transmisia de date şi era, pentru străbunicii noştri, o minune a tehnologiei la fel de copleşitoare ca şi internetul pentru noi. </p>
-      </li>
-      <li class="list-group-item">
-        <b>Anii '50 - primele calculatoare</b>
-        <p>Un factor esenţial în evoluţia internetului a constituit-o dezvoltarea computerelor, începând din anii 1950. Mari cât o cameră (şi lente în comparaţie cu cele de azi), aceste prime calculatoare permiteau transmisiile de date de la un computer principal la terminale şi, în ciuda aspectului greoi, au reprezentat o etapă esenţială în apariţia fenomenului.</p>
-      </li>
-      <li class="list-group-item">
-        <b>Anii '60-'70: primele reţele informatice</b>
-        <p>Pe baza ideilor lui Joseph Carl Robnett Licklider, în 1969, între universitatea California - Los Angeles şi Institutul de Cercetare Stanford a fost instalată o legătură printr-o reţea numită ARPANET (Advanced Research Projects Agency Network), a cărei dezvoltare fusese finanţată de Departamentul Apărării din SUA. În acelaşi an, ARPANET s-a extins prin adăugarea a încă 2 noduri de reţea - la Universitatea Utah şi Universitatea California - Santa Barbara.</p>
-      </li>
-      <li class="list-group-item">Porta ac consectetur ac</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
+    <div class = "col-md-3 inner-content">
+      <center> <img src = "img/tableta.png" class = "device" /> </center>
+      Tableta poate fi dusă aproape oriunde și asigură accesul rapid la informații.
     </div>
-
+    <div class = "col-md-3 inner-content">
+      <center> <img src = "img/telefon.png" class = "device" /> </center>
+      Telefonul mobil (mai ales un smartphone) îl avem tot timpul cu noi.
+    </div>
   </div>
 </div>
 
 
+</div>
+
+<script src = "js/data.js"></script>
 <script src = "js/script.js"></script>
 </body>
 

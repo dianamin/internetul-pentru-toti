@@ -33,5 +33,5 @@ var anInternet = function () {
 	else rezultat = "Nu chiar!"
 	rezultat += " Internetul a apărut în anul 1982."
 	scrieElement("rezultatAn", rezultat)
-	arataElement("rezultatAn", "200");
+	arataElement("rezultatAn", "50");
 }

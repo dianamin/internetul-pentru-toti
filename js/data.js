@@ -188,5 +188,41 @@ var info = [
       <img src = "img/drive.png" class = "img-basic" />\
       </div>\
     </div>\
+  </div>',
+ '<h2>Datele mele sunt mereu sigure pe net?</h2>\
+<p>Nu, nu sunt. De aceea trebuie să fim întotdeauna atenți la ce site-uri folosim.</p>\
+<p style = "font-size: 20px; color: red;"> <span class = "glyphicon glyphicon-shopping-cart"></span> <span class = "glyphicon glyphicon-usd\
+"></span> <span class = "glyphicon glyphicon-user"></span></p>\
+<p>Folosim site-uri dacă mergem la cumpărături, ne administrăm banii din bancă sau dacă vorbim cu prietenii. Pentru acest lucru, datele noastre personale ajung la sediul unei firme. Conexiunea este întotdeauna sigură? De asemenea, internetul reprezintă un spațiu fascinant, în care comunicarea, informația și divertismentul sunt beneficii pentru toți oamenii indiferent de vârstă și de cultura căreia îi aparțin. </p>\
+<img src = "img/security.png" class = "img-basic" />\
+<h2><span class = "glyphicon glyphicon-warning-sign"></span>Ce măsuri ar trebui să iau?</h2>\
+<p>Hmm... Răspunde la următoarele întrebări.</p>\
+<table class = "table table-striped">\
+  <tr><td>Ești atent la ceea ce postezi? <p class = "ascuns" id = "a0"><span id = \'q0\'></span>Înainte de a posta pe o rețea socială, gândeștete dacă ai vrea ca la acea informație să aibă acces toată lumea. Nu uita, Internetul este un loc public!</p></td>\
+    <td> <button class = "btn btn-success" onclick = "masuri(1, 0)">Da</button> <button class = "btn btn-danger" onclick = "masuri(2, 0)">Nu</button></td></tr>\
+  <tr><td>Poți vorbi oricum cu ceilalți utilizatori?  <p class = "ascuns" id = "a1"><span id = "q1"></span>Comportă-te cu ceilalți așa cum ai vrea să se poarte și ei la rândul lor cu tine. În cazul în care cineva te deranjează, blochează și raportează persoana.</p></td>\
+    <td> <button class = "btn btn-success" onclick = "masuri(1, 1)">Da</button> <button class = "btn btn-danger" onclick = "masuri(2, 1)">Nu</button></td></tr>\
+  <tr><td>Ai antivirus? <p class = "ascuns" id = "a2"><span id = "q2"></span>Instalează un antivirus bun și actualizează-l regulat. Astfel vei fi ferit de viruși și malware.</p></td>\
+    <td> <button class = "btn btn-success" onclick = "masuri(1, 2)">Da</button> <button class = "btn btn-danger" onclick = "masuri(2, 2)">Nu</button></td></tr>\
+  <tr><td>Citești comentariile de la site-urile firmelor? <p class = "ascuns" id = "a3"><span id = "q3"></span>Este bine să citești comentariile utilizatorului pentru a te asigura ca site-ul respectiv este sigur.</p></td>\
+  <td> <button class = "btn btn-success" onclick = "masuri(1, 3)">Da</button> <button class = "btn btn-danger" onclick = "masuri(2, 3)">Nu</button> </td></tr>\
+</table>',
+'<h2><span class = "glyphicon glyphicon-certificate"></span> Sfaturi</h2>\
+<div class = "row">\
+  <div class = "col-md-6">\
+    <img src = "img/tip1.gif" class = "img-basic" />\
+    <p> <span class = "glyphicon glyphicon-camera"></span>La o căutare de imagini pe Google, apasă Ctrl + S și dă click pe o imagine pentru a căuta imagini asemănătoare. </p>\
+    <img src = "img/tip3.gif" class = "img-basic" />\
+    <p> <span class = "glyphicon glyphicon-search"></span> Căutând "google in 1998", Google devine retro.</p>\
+    <img src = "img/tip5.gif" class = "img-basic" />\
+    <p> <span class = "glyphicon glyphicon-search"></span> Căutând "Atari Breakout", poți juca jocul pe Google.</p>\
+  </div>\
+  <div class = "col-md-6">\
+    <img src = "img/tip2.gif" class = "img-basic" />\
+    <p> <span class = "glyphicon glyphicon-camera"></span>Același lucru și dacă tragi imaginea spre bara de căutare.</p>\
+    <img src = "img/tip4.gif" class = "img-basic" />\
+    <p> <span class = "glyphicon glyphicon-search"></span> Căutând "do a barrel roll", pagina de Google se învarte.</p>\
+    <img src = "img/tip6.jpg" class = "img-basic" />\
+    <p> <span class = "glyphicon glyphicon-star-empty"></span> Apasă Ctrl + Shift + N pentru a deschide o fereastră incognito.</p>\
   </div>'
 ];
